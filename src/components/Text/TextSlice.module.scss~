@@ -1,0 +1,14 @@
+.justifyLine{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    span{
+        position: relative;
+        z-index: 3;
+        &.over{
+            color: red;
+            z-index: 1;
+        }
+    }
+}
