@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import path from 'path';
 export default defineConfig({
-  base: '/Renewal_Portfolio/',
+  base: '/puble_portfolio/renewal/',
   plugins: [react()],
   resolve: {
     alias: {
