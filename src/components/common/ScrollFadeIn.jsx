@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
-const ScrollFadeIn = ({children, delay = 0, duration = 1, y = 30, className,...rest}) => {
+const ScrollFadeIn = ({children, delay = 0, duration = 1, y = 30, amount = 0.3, className,...rest}) => {
     return (
         <motion.div
             className={className}
             initial={{ opacity: 0, y }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration, delay }}
-            viewport={{ once: true, amount: 0.3 }}
+            viewport={{ once: true, amount }}
             {...rest}
         >
             {children}
