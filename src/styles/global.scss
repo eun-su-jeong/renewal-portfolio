@@ -35,7 +35,7 @@ main{
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  overflow: hidden;
+  overflow: hidden; // 반영 안됨
   position: relative;
 
   @include respond(mobile) {
