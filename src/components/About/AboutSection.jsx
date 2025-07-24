@@ -13,7 +13,7 @@ const AboutSection = () => {
         {
             icon: faLaptopCode,
             term: "2025.03 ~ 현재",
-            title: "(주)넥스트미션",
+            title: "웹에이전시",
             description: "웹에이전시[프리랜서 퍼블리셔]",
             details: [
                 "PHP 솔루션 기반의 반응형 웹 페이지 퍼블리싱 담당",
