@@ -154,7 +154,7 @@ const AboutSection = () => {
                                         </div>
                                         <div className={styles.info}>
                                             <p className={styles.content}>
-                                               <span>{item.content}</span>
+                                               <span>{item.title}</span>
                                                 {item.description && (
                                                     <span className={styles.description}>{item.description}</span>
                                                 )}
