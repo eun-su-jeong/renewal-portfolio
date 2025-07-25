@@ -44,7 +44,7 @@ const Contact = () => {
                         </a>
                     </div>
                     <div className={styles.contactInfo__list}>
-                        <a href="/data/sujeong_portfolio.pdf"
+                        <a href="/renewal-portfolio/data/sujeong_portfolio.pdf"
                            target="_blank">
                             <div className={styles.infoTitle}>
                                 <FontAwesomeIcon className={styles.icon} icon={faLink}/>
